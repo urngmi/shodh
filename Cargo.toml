@@ -1,0 +1,11 @@
+[package]
+name = "shodh"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+rayon = "1.8"
+
+[[bin]]
+name = "shodh"
+path = "src/shodh.rs"
